@@ -1,0 +1,301 @@
+{
+	"info": {
+		"_postman_id": "e80caeb0-e2e8-49b2-b3ec-8e5f0f9b8cab",
+		"name": "prueba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "17095028"
+	},
+	"item": [
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "http://localhost:8000/api/users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8000/api/users"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/api/users/1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8000/api/users/1"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/api/users",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"prueba\",\r\n    \"email\": \"prueba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/api/users"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/api/users/2",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"prueba 2\",\r\n    \"email\": \"prueba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/api/users/2"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/api/users/1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:8000/api/users/1"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "company",
+			"item": [
+				{
+					"name": "http://localhost:8000/api/companies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8000/api/companies"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/api/companies Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8000/api/companies/1"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/api/companies Copy 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"prueba\",\r\n    \"nit\": \"prueba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/api/companies"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/api/companies Copy 3",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"prueba 3\",\r\n    \"nit\": \"prueba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/api/companies/2"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/api/companies Copy 4",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/api/companies/2"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "role",
+			"item": [
+				{
+					"name": "http://localhost:8000/api/companies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8000/api/roles"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/api/companies Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8000/api/roles/1"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/api/companies Copy 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"prueba 4\",\r\n    \"description\": \"prueba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/api/roles"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/api/companies Copy 3",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"prueba 2\",\r\n    \"description\": \"prueba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/api/roles/1"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8000/api/companies Copy 4",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"prueba 3\",\r\n    \"nit\": \"prueba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/api/roles/3"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "userCompany",
+			"item": [
+				{
+					"name": "http://localhost:8000/api/companies Copy 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"user_id\": 2,\r\n  \"company_id\": 1,\r\n  \"role_id\": 1\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/api/userCompany"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "sales point",
+			"item": [
+				{
+					"name": "http://localhost:8000/api/companies Copy 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Central Store\",\r\n  \"address\": \"123 Main Street\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/api/salesPoint"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "company sales point",
+			"item": [
+				{
+					"name": "http://localhost:8000/api/companies Copy 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"company_id\": 1,\r\n  \"sales_point_id\": 2\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/api/company-sales-points"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
